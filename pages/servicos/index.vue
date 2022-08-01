@@ -20,13 +20,18 @@
           laboriosam eaque? Necessitatibus quibusdam beatae corporis veritatis
           velit fuga voluptate recusandae!
         </p>
+        <ul>
+          <li>
+            <NuxtLink to="/servicos/desenvolvimento">Desenvolvimento</NuxtLink>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import BarraMenu from "../components/BarraMenu.vue";
+import BarraMenu from "@/components/BarraMenu.vue";
 export default {
   name: "Servicos",
   components: {
